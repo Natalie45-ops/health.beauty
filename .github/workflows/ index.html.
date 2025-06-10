@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>healt.beauty – Natalie Kleiß</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #faf6f2;
+      color: #3d3d3d;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: #f0ebe6;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #a2767c;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #7a7a7a;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #a2767c;
+      margin-bottom: 10px;
+    }
+    .button {
+      display: inline-block;
+      background: #a2767c;
+      color: white;
+      padding: 12px 24px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>healt.beauty</h1>
+    <p>by Natalie Kleiß</p>
+  </header>
+
+  <section>
+    <h2>Über mich</h2>
+    <p>Ich unterstütze Menschen dabei, ihre innere Balance und äußere Schönheit zu verbinden. Mit einem ganzheitlichen Ansatz biete ich individuelle Begleitung in den Bereichen Wellness, Achtsamkeit und Selbstpflege – alles mit Herz und Seele.</p>
+  </section>
+
+  <section>
+    <h2>Leistungen</h2>
+    <ul>
+      <li>Wellness-Beratung</li>
+      <li>Begleitung im Alltag für mehr Achtsamkeit</li>
+      <li>Digitale Ordnung & Organisation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kontakt</h2>
+    <p>Bei Interesse oder Fragen schreib mir gerne über WhatsApp.</p>
+    <a class="button" href="https://wa.me/4915209708737" target="_blank">Jetzt kontaktieren</a>
+  </section>
+
+  <footer>
+    © 2025 healt.beauty – Natalie Kleiß
+  </footer>
+
+</body>
+</html>
