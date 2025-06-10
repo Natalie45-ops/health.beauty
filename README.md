@@ -60,7 +60,7 @@
       max-width: 800px;
       margin: auto;
     }
-    .gallery {
+.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
@@ -78,16 +78,6 @@
 .gallery img:hover {
   transform: scale(1.05);
 }
-<section class="content" id="gallery">
-  <h2>Bildergalerie</h2>
-  <div class="gallery">
-    <img src="https://via.placeholder.com/250x150?text=Bild+1" alt="Bild 1">
-    <img src="https://via.placeholder.com/250x150?text=Bild+2" alt="Bild 2">
-    <img src="https://via.placeholder.com/250x150?text=Bild+3" alt="Bild 3">
-    <img src="https://via.placeholder.com/250x150?text=Bild+4" alt="Bild 4">
-    <img src="https://via.placeholder.com/250x150?text=Bild+5" alt="Bild 5">
-  </div>
-</section>
     .contact-form {
       background: #ffffff;
       padding: 2rem;
@@ -180,7 +170,16 @@
       </form>
     </div>
   </section>
-
+<section class="content" id="gallery">
+  <h2>Bildergalerie</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/250x150?text=Bild+1" alt="Bild 1">
+    <img src="https://via.placeholder.com/250x150?text=Bild+2" alt="Bild 2">
+    <img src="https://via.placeholder.com/250x150?text=Bild+3" alt="Bild 3">
+    <img src="https://via.placeholder.com/250x150?text=Bild+4" alt="Bild 4">
+    <img src="https://via.placeholder.com/250x150?text=Bild+5" alt="Bild 5">
+  </div>
+</section>
   <footer>
     &copy; 2025 Natalie – Health & Beauty
   </footer>
