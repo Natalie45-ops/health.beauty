@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -61,7 +61,34 @@
       max-width: 800px;
       margin: auto;
     }
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 1rem;
+}
 
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+<section class="content" id="gallery">
+  <h2>Bildergalerie</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/250x150?text=Bild+1" alt="Bild 1">
+    <img src="https://via.placeholder.com/250x150?text=Bild+2" alt="Bild 2">
+    <img src="https://via.placeholder.com/250x150?text=Bild+3" alt="Bild 3">
+    <img src="https://via.placeholder.com/250x150?text=Bild+4" alt="Bild 4">
+    <img src="https://via.placeholder.com/250x150?text=Bild+5" alt="Bild 5">
+  </div>
+</section>
     .contact-form {
       background: #ffffff;
       padding: 2rem;
